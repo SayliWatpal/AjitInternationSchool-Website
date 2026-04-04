@@ -66,13 +66,17 @@
 
         <div class="contact-form-box">
           <h3>Send Us a Message</h3>
-          <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <input type="text" placeholder="Phone Number" required />
-            <textarea rows="5" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
+          <form id="contactForm">
+    <input type="text" id="name" name="entry.24211047" placeholder="Your Name">
+    <input type="email" id="email" name="entry.2049927103" placeholder="Your Email">
+    <input type="text" id="phone" name="entry.347530787" placeholder="Phone Number">
+    <textarea id="message" name="entry.1152254244" placeholder="Your Message"></textarea>
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+  <p id="successMsg" style="color: green; display: none; margin-top: 10px;">
+  Message sent successfully!
+</p>
         </div>
       </div>
     </div>
