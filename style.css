@@ -740,6 +740,28 @@ ul {
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
 }
 
+/* Caption below inspiration image */
+.inspiration-image {
+  text-align: center;
+}
+
+.inspiration-caption {
+  margin-top: 12px;
+}
+
+.inspiration-caption h4 {
+  margin: 6px 0 2px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.inspiration-caption p {
+  margin: 0;
+  font-size: 14px;
+  color: #526173;
+}
+
 .management-section {
   background: #ffffff;
 }
